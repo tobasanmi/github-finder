@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <Link rel='stylesheet' href='app.css'></Link>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Finder</title>
 </head>
 
 <body>
-
-    <div>
-        <input type="text" name="githubUser" id="githubSearch">
+    <nav class="nav">
+        <i class="fab fa-github github-icon"> GitHubProfiles</i>
+        <input type="text" name="githubUser" id="githubSearch" placeholder="Search for a Github user ">
+    </nav>
+    <!-- <div class="input-container"><input type="text" name="githubUser" id="githubSearch"></div> -->
+    <div class=' main'>
         <div id="profile"></div>
     </div>
-    <footer>Temi &copy;</footer>
-    <script src="gitHub.js"></script>
-    <script src="ui.js"></script>
-    <script src="app.js"></script>
+    <footer> &copy; Temi 2021</footer>
+    <script src=" gitHub.js "></script>
+    <script src="ui.js "></script>
+    <script src="app.js "></script>
 </body>
 
 </html>
