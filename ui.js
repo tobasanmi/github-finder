@@ -35,7 +35,7 @@ class Ui {
      </div>
      <p class = "description">${repo.description}</p>
       <li class = "info"> 
-      <span><i class="fas fa-circle icon circle"></i> ${repo.language}</span>
+      <span><i class="fal fa-circle circle"></i> ${repo.language}</span>
       <span><i class="far fa-star icon"></i> ${repo.stargazers_count}</span>
       <span><i class="fas fa-code-branch icon"></i>${repo.forks} </span>
       </li>

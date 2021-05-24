@@ -7,9 +7,6 @@ const searchUser = document.getElementById('githubSearch');
 searchUser.addEventListener('change', (e) => {
   //get input 
   let  userText  = e.target.value;
-  const clearUser = ()=> {
-    userText === '';
-  }
   if(userText !== ''){
     // console.log('text', userText);
     //make http call to the server 
@@ -26,7 +23,6 @@ searchUser.addEventListener('change', (e) => {
         ui.showProfile(data.profile)
         //show repos
         ui.showRepos(data.repos)
-        clearUser();
       }
     })
   }else {
