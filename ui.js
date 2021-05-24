@@ -5,7 +5,6 @@ class Ui {
   }
 
   showProfile(user) {
-      // console.log('user',user)
       this.profile.innerHTML = `
       <div class="profile-left">
       <img src='${user.avatar_url}' alt = 'userImage' class = 'user-avatar'>
